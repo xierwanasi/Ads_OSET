@@ -1,1 +1,1 @@
-*.xcframework filter=lfs diff=lfs merge=lfs -text
+/Users/szys/Desktop/Project/User/Ads_OSET/Ads_OSET/KSAdSDK/Frameworks/KSAdSDK.xcframework filter=lfs diff=lfs merge=lfs -text
