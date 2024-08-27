@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		1526D850101708255DC6F1ED /* Pods-Ads_OSET_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ads_OSET_Tests.release.xcconfig"; path = "Target Support Files/Pods-Ads_OSET_Tests/Pods-Ads_OSET_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5C39903F9EB129936DEAFA70 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5D4C886FB37A4C0B252F39F6 /* Ads_OSET.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Ads_OSET.podspec; path = ../Ads_OSET.podspec; sourceTree = "<group>"; };
+		5C39903F9EB129936DEAFA70 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5D4C886FB37A4C0B252F39F6 /* Ads_OSET.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Ads_OSET.podspec; path = ../Ads_OSET.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5EFD2EBD6BA9E4FBF607646A /* Pods_Ads_OSET_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ads_OSET_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* Ads_OSET_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ads_OSET_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6CD787AAC2AA190033EF79E2 /* Pods-Ads_OSET_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ads_OSET_Example.debug.xcconfig"; path = "Target Support Files/Pods-Ads_OSET_Example/Pods-Ads_OSET_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7706DE0B1F27E2FA906F28C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7706DE0B1F27E2FA906F28C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7B25ADBD7BA924198D6F631A /* Pods-Ads_OSET_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ads_OSET_Example.release.xcconfig"; path = "Target Support Files/Pods-Ads_OSET_Example/Pods-Ads_OSET_Example.release.xcconfig"; sourceTree = "<group>"; };
 		83560A8C36A53A9A1FF9211C /* Pods_Ads_OSET_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ads_OSET_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97EB4AC56B504EBF464F482E /* Pods-Ads_OSET_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ads_OSET_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Ads_OSET_Tests/Pods-Ads_OSET_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				97EB4AC56B504EBF464F482E /* Pods-Ads_OSET_Tests.debug.xcconfig */,
 				1526D850101708255DC6F1ED /* Pods-Ads_OSET_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -172,6 +171,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				BB12D03B5B0D90EDB34456CB /* [CP] Embed Pods Frameworks */,
+				BD64F0649A0974597C27117E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 9A7YWF4GH6;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 9A7YWF4GH6;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -313,15 +316,41 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Ads_OSET_Example/Pods-Ads_OSET_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Ads_OSET/Ads_OSET.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Ads_OSET/KSAdSDK/KSAdSDK.framework/KSAdSDK",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Ads_OSET.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KSAdSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ads_OSET_Example/Pods-Ads_OSET_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD64F0649A0974597C27117E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ads_OSET_Example/Pods-Ads_OSET_Example-resources.sh",
+				"${PODS_ROOT}/Ads-CN-Beta/SDK/CSJAdSDK.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Ads_OSET/Ads_OSET.bundle",
+				"${PODS_ROOT}/BaiduMobAdSDK/baidumobadsdk.bundle",
+				"${PODS_ROOT}/OctopusSDK/OctopusSDK/Assets/OctAdSDK.bundle",
+				"${PODS_ROOT}/OctopusSDK/OctopusSDK/Assets/OctCore.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CSJAdSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ads_OSET.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/baidumobadsdk.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OctAdSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OctCore.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ads_OSET_Example/Pods-Ads_OSET_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -478,7 +507,9 @@
 			baseConfigurationReference = 6CD787AAC2AA190033EF79E2 /* Pods-Ads_OSET_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9A7YWF4GH6;
 				INFOPLIST_FILE = Ads_OSET/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +524,9 @@
 			baseConfigurationReference = 7B25ADBD7BA924198D6F631A /* Pods-Ads_OSET_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9A7YWF4GH6;
 				INFOPLIST_FILE = Ads_OSET/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -507,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 97EB4AC56B504EBF464F482E /* Pods-Ads_OSET_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9A7YWF4GH6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +563,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1526D850101708255DC6F1ED /* Pods-Ads_OSET_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9A7YWF4GH6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
