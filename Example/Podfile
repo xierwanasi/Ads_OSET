@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'Ads_OSET_Example' do
+  pod 'Ads_OSET', :path => '../'
+
+  target 'Ads_OSET_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
