@@ -41,20 +41,17 @@ PODS:
   - SigmobAd-iOS/WindSDK (4.13.0)
 
 DEPENDENCIES:
-  - Ads_OSET (from `../`)
+  - Ads_OSET
 
 SPEC REPOS:
   trunk:
     - Ads-CN-Beta
+    - Ads_OSET
     - BaiduMobAdSDK
     - BeiZiSDK-iOS
     - GDTMobSDK
     - OctopusSDK
     - SigmobAd-iOS
-
-EXTERNAL SOURCES:
-  Ads_OSET:
-    :path: "../"
 
 SPEC CHECKSUMS:
   Ads-CN-Beta: 28d562ceecf0dfa07fc17119ba9a4550e55a2a49
@@ -65,6 +62,6 @@ SPEC CHECKSUMS:
   OctopusSDK: e80c3397bc4fa3b8ec4fc6e5d30bd3f041f0d6cc
   SigmobAd-iOS: a813743e943bac18e19828e58c870fafe34478fa
 
-PODFILE CHECKSUM: cbc6cfe4dd311f3546ba47071b5d5d201bf4a70e
+PODFILE CHECKSUM: 74b3d00149382cb99a2de7f188572a58c0cfe33e
 
 COCOAPODS: 1.15.2

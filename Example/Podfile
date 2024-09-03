@@ -3,7 +3,8 @@ use_frameworks!
 platform :ios, '13.0'
 
 target 'Ads_OSET_Example' do
-  pod 'Ads_OSET', :path => '../'
+  pod 'Ads_OSET'
+
 
   target 'Ads_OSET_Tests' do
     inherit! :search_paths

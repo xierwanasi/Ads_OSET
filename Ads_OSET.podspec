@@ -49,13 +49,13 @@ Pod::Spec.new do |s|
         'MediaPlayer', 'MobileCoreServices', 'MessageUI', 'AudioToolbox', 'CoreGraphics', 'DeviceCheck'
         s.libraries  = 'xml2', 'z', 'sqlite3', 'c++', 'resolv.9', 'xml2.2', 'iconv', 'bz2.1.0', 'z.1.2.5', 'c++abi'
         
-        s.dependency 'Ads-CN-Beta/BUAdSDK', '~> 6.2.0.1'
-        s.dependency 'Ads-CN-Beta/CSJMediation', '~> 6.2.0.1'
-        s.dependency 'GDTMobSDK', '~> 4.14.81'
-        s.dependency 'SigmobAd-iOS', '~> 4.13.0'
+        s.dependency 'Ads-CN-Beta/BUAdSDK', '6.2.0.1'
+        s.dependency 'Ads-CN-Beta/CSJMediation', '6.2.0.1'
+        s.dependency 'GDTMobSDK', '~> 4.15.00'
+        s.dependency 'SigmobAd-iOS', '~> 4.15.3'
         s.dependency 'BaiduMobAdSDK', '~> 5.36'
-        s.dependency 'BeiZiSDK-iOS/BeiZiSDK-iOS', '~> 4.90.4.8'
-        s.dependency 'OctopusSDK', '~> 1.6.0.10'
+        s.dependency 'BeiZiSDK-iOS/BeiZiSDK-iOS', '~> 4.90.4.17'
+        s.dependency 'OctopusSDK', '1.6.0.10'
         
     end
     
@@ -65,10 +65,7 @@ Pod::Spec.new do |s|
         
         ksad.ios.vendored_framework  = 'KSAdSDK/Frameworks/KSAdSDK.xcframework'
         
-        ksad.frameworks = ["Foundation", "UIKit", "MobileCoreServices", "CoreGraphics", "Security", "SystemConfiguration",
-        "CoreTelephony", "AdSupport", "CoreData", "StoreKit", "AVFoundation", "MediaPlayer", "CoreMedia",
-        "WebKit", "Accelerate", "CoreLocation", "AVKit", "MessageUI", "QuickLook", "AudioToolBox",
-        "JavaScriptCore", "CoreMotion"]
+        ksad.frameworks = ["Foundation", "UIKit", "MobileCoreServices", "CoreGraphics", "Security", "SystemConfiguration", "CoreTelephony", "AdSupport", "CoreData", "StoreKit", "AVFoundation", "MediaPlayer", "CoreMedia", "WebKit", "Accelerate", "CoreLocation", "AVKit", "MessageUI", "QuickLook", "AudioToolBox", "JavaScriptCore", "CoreMotion"]
     end
     
 end

@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import OSETSDK
+import BaiduMobAdSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

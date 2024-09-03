@@ -33,7 +33,7 @@ typedef NS_ENUM(NSInteger, OSETLoadADType) {
 
 
 @interface OSETManager : NSObject
-
+@property (nonatomic, assign) BOOL disableShake;
 + (instancetype)shareInstance;
 
 /**
