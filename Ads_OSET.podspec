@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     #   * Finally, don't worry about the indent, CocoaPods strips it!
     
     s.description      = <<-DESC
-    https://doc.shenshiads.com/index.html?a=1
+    "https://doc.shenshiads.com/index.html?a=1"
     DESC
     
     s.homepage         = 'https://github.com/xierwanasi/Ads_OSET'
